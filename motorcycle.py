@@ -1,0 +1,10 @@
+motorcycles = ['honda00', 'yamaha11', 'suzuki22', 'ducati33', 'kawasaki44']
+print(motorcycles)
+popped_motorcycle = motorcycles.pop()
+print(popped_motorcycle)
+print(motorcycles)
+popped_motorcycle = motorcycles.pop()
+print(motorcycles)
+print(popped_motorcycle)
+# SECONDpopped_motorcycle = popped_motorcycle.pop()
+# print(SECONDpopped_motorcycle)

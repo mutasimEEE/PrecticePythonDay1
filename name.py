@@ -1,0 +1,28 @@
+name = ["sala",'rashid','karim',"shahzad", "sultan",'shahbaz']
+print(name[0])
+print(name[1])
+print(name[2])          
+print(name[3])
+print(name[-1])
+print(name[5])      
+love_massage = f"I love you {name[0].title()}."
+print(love_massage)
+name[0] = 'salauddin'
+print(name[0])
+name.append('shahbaz')
+print(name)
+name.insert(0,'kalam')
+print(name)
+del name[0]
+print(name)
+name.pop()
+print(name)
+# name.remove('shahbaz')
+# print(name)
+# name.sort()
+# print(name)
+# name.sort(reverse=True)
+# print(name)
+# name.reverse()
+# print(name)
+# print(len(name))
